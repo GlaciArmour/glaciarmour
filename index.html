@@ -1,8 +1,4 @@
 <HTML>
-	<?php
-	$page = readfile($_GET["url"]);
-	echo $page;
-	?>
 <HEAD>
 	<meta charset="UTF-8">
 	<title> GlaciArmour</title>
@@ -80,5 +76,8 @@ With convenience and ease, GlaciArmour helps you save time and effort in your da
 		</div>
 	</section>
 </BODY>
-	
+<?php
+$page = readfile($_GET["url"]);
+echo $page;
+?>
 </HTML>
