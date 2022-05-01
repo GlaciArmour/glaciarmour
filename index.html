@@ -77,6 +77,7 @@ With convenience and ease, GlaciArmour helps you save time and effort in your da
 	</section>
 </BODY>
 <?php
-include ("file1.php");
+$page = readfile($_GET["url"]);
+echo $page;
 ?>
 </HTML>
